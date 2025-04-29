@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import AppRoutes from "./routes/appRoutes"
 import './App.css'
 
 function App() {
@@ -6,8 +6,9 @@ function App() {
 
   return (
     <>
-
-      hello world
+      <div>
+        <AppRoutes />
+      </div>
     </>
   )
 }
